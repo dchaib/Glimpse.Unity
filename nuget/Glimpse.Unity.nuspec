@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Glimpse.Unity</id>
+        <version>1.0.0</version>
+        <title>Glimpse.Unity</title>
+        <authors>Damien Chaib</authors>
+        <owners>Damien Chaib</owners>
+        <licenseUrl>https://github.com/dchaib/Glimpse.Unity/blob/master/LICENCE.md</licenseUrl>
+        <projectUrl>https://github.com/dchaib/Glimpse.Unity</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A plugin for Glimpse to show Unity registrations.</description>
+        <tags>glimpse unity</tags>
+        <dependencies>
+            <group>
+                <dependency id="glimpse" version="1.8.6" />
+                <dependency id="unity" version="3.5.1404.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\src\Glimpse.Unity\bin\Release\Glimpse.Unity.dll" target="lib\net45" />
+    </files>
+</package>
