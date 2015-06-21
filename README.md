@@ -5,7 +5,7 @@ This is a plugin for [Glimpse](http://getglimpse.com/) to show [Unity](https://u
 ![Screenshot of Glimpse.Unity](/docs/screenshot.jpg?raw=true "Screenshot")
 
 ## Usage
-- Add a reference to the compiled DLL (soon available as a NuGet package)
+- Add a reference to Glimpse.Unity in your project (available as a [NuGet package](https://www.nuget.org/packages/Glimpse.Unity/): `Install-Package Glimpse.Unity`)
 - Call `RegisterInGlimpse()` on your container:
 
   ```cs
