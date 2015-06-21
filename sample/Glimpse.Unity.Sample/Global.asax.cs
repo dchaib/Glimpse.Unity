@@ -24,7 +24,7 @@ namespace Glimpse.Unity.Sample
             container.RegisterType<IFoo, Foo>();
             container.RegisterType<IBar, Bar>(new ContainerControlledLifetimeManager());
 
-            container.ActivateGlimpse();
+            container.RegisterInGlimpse();
         }
     }
 

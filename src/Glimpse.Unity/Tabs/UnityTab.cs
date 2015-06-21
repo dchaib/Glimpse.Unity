@@ -6,7 +6,7 @@ namespace Glimpse.Unity.Tabs
 {
     public class UnityTab : TabBase
     {
-        internal static IUnityContainer ContainerInstance { private get; set; }
+        internal static IUnityContainer RegisteredContainer { private get; set; }
 
         public override string Name
         {
@@ -15,7 +15,7 @@ namespace Glimpse.Unity.Tabs
 
         public override object GetData(ITabContext context)
         {
-            return GetUnityContainerData(ContainerInstance);
+            return GetUnityContainerData(RegisteredContainer);
         }
 
         private object GetUnityContainerData(IUnityContainer container)
