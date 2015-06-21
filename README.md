@@ -2,6 +2,7 @@
 
 ## Description
 This is a plugin for [Glimpse](http://getglimpse.com/) to show [Unity](https://unity.codeplex.com/) registrations.
+![Screenshot of Glimpse.Unity](/docs/screenshot.jpg?raw=true "Screenshot")
 
 ## Usage
 - Add a reference to the compiled DLL (soon available as a NuGet package)
