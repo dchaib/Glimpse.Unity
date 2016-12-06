@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Glimpse.Unity</id>
-        <version>1.0.0</version>
+        <version>1.1.1</version>
         <title>Glimpse.Unity</title>
         <authors>Damien Chaib</authors>
         <owners>Damien Chaib</owners>
@@ -10,11 +10,12 @@
         <projectUrl>https://github.com/dchaib/Glimpse.Unity</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>A plugin for Glimpse to show Unity registrations.</description>
+		<releaseNotes>Upgraded Unity to v4.0.1</releaseNotes>
         <tags>glimpse unity</tags>
         <dependencies>
             <group>
                 <dependency id="glimpse" version="1.8.6" />
-                <dependency id="unity" version="4.0.1.0" />
+                <dependency id="unity" version="4.0.1" />
             </group>
         </dependencies>
     </metadata>
