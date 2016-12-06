@@ -14,7 +14,7 @@
         <dependencies>
             <group>
                 <dependency id="glimpse" version="1.8.6" />
-                <dependency id="unity" version="3.5.1404.0" />
+                <dependency id="unity" version="4.0.1.0" />
             </group>
         </dependencies>
     </metadata>
